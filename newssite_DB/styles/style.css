@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section 
+{
+	display: block;
+}
+
+body 
+	{
+		background: black;
+	}
+
+.main_box
+				{
+					width: 1000px;
+					height: auto;
+					margin: auto;
+					background: #FFCC99;
+					border-radius: 20px;
+
+				}
+
+.header_box
+				{
+					width: 1000px;
+					height: 150px;
+					background: #DDDDDD;
+					position: fixed;
+					border-radius: 30px;
+				}
+
+#spacetofixheader
+				{
+					width: 1000px;
+					height: 150px;
+				}
+
+#navbar
+		{
+			width: 1000px;
+			height: 75px;
+			background: gray;
+			color: white;
+			border-radius: 20px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
+#menu 
+		{
+			padding: 0;
+			line-height: 60px;
+			margin-top: 5px;
+			float: left;
+		}
+		#menu li 
+				{
+					list-style: none;
+					display: inline;
+				}
+		#menu a 
+				{
+					color: white;
+					text-decoration: none;
+					font-size: 20px;
+					margin: 5px;
+					padding: 10px;
+				}
+		#menu a:hover
+					{
+						text-decoration: underline;
+						color:  #E0FFFF;
+						font-weight: bolder;
+
+					}
+
+		#form 
+			{
+				float: right;
+				line-height: 71px;
+				padding-right: 5px;
+			}
+
+.content_box
+				{
+					width: 1000px;
+					height: 1000px;
+
+				}
+
+				#right_content
+								{
+									width: 800px;
+									height: auto;
+									max-height: 100%; /*to scroll contents*/
+									background: #E0FFFF;
+									float: right;
+									border-radius: 30px;
+									overflow-y: scroll; /* this is used for scrollbar*/
+									overflow-x: hidden;
+									border-color: solid black;
+									
+								}
+
+				#left_content
+								{
+									width: 190px;
+									height: 1000px;
+									max-height: 100%;
+									background: #99CC99; 
+									float: left;
+									border-radius: 30px;
+									margin-bottom: 5px;
+								}
+
+.footer
+		{
+			width: 1000px;
+			height: 100px;
+			background: gray;
+			color: white;
+			clear: both;
+			border-radius: 30px;
+		}
+
+#sidebar_title
+			{
+				background: black;
+				color: white;
+				padding: 10px;
+				font-size: 26px;
+				text-align: center;
+				letter-spacing: 2px;
+				border-radius: 30px;
+
+			}
+
+#cats 
+	{
+		text-align: center;
+		padding: 10px;
+	}
+	#cats li 
+			{
+				list-style: none;
+				margin: 15px;
+				letter-spacing: 1px;
+			}
+	#cats a 
+			{
+				color: black;
+				font-size: 18px;
+				text-decoration: none;
+			}
+	#cats a:hover
+				{
+					color: white;
+					text-decoration: underline;
+					font-weight: bolder;
+				}
+
+#headline /*this is a headlene of right content */
+		{
+			background-color: black;
+			width: 777px;
+			height: 40px;
+			border-radius: 30px;
+			margin-top: 5px;
+			margin-left: 10px;
+		}
+
+#headline_content
+				{
+					float: right;
+					font-size: 20px;
+					margin-top: 5px;
+
+				}
+
+#post_box
+			{
+				margin-top: 20px;
+				margin-left: 10px;
+				margin-right: 10pc;
+				text-align: center;
+				width: 800px;
+				height: 1000px;
+			}
+#single_post
+				{
+					float: left;
+					padding: 2%;
+					margin-left: 35px;
+					float: left;
+				}
+
+#single_post img /*this is used to do editing in retived product imgs from database*/
+				{
+					width: 280px; 
+					height: 180px; 
+					border-radius: 50px;
+					border: 2px solid black;
+				}
