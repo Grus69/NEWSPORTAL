@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+}
+a:hover{
+	color: #B82924;
+}
+p{
+	margin-bottom: 8px;
+}
+body {
+    background: url('../imgs/bg.png') repeat;
+	font-family: Source, Tahoma, sans-serif;
+	color: #fff;
+	font-size: 14px;
+	text-shadow: 1px 1px 0px #000;
+		
+}
+
+#wrapper{
+    
+    border: 1px solid aqua;
+	width: 1080px;
+	margin: 16px auto;
+	background-color: #121212;
+	padding: 20px 20px;
+	box-shadow: 0 4px 6px aqua;
+}
+
+header{
+    width: 1080px;
+    border-top: 1px solid aqua;
+    border-left: 1px solid aqua;
+    border-right: 1px solid aqua;
+    box-shadow: inset 0 3px 14px cyan;
+    margin: 8px auto;
+    position: sticky;
+    top: 0;
+    padding: 20px 20px;
+    background-color: black;
+        overflow: hidden;
+    z-index: 100;
+}
+header h1{
+    font-family: LeagueGothic, Impact, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-shadow: -1px 0px 7px #6826de;
+    position: relative;
+    width: 1080px;
+    margin-bottom: 10px;
+    color: #37b4ec;
+}
+header h2{
+    font-size: 16px;
+    text-decoration: solid;
+    font-weight: bold;
+    font-family: LeagueGothic, sans-serif;
+    width: 500px;
+    text-shadow: 1px 1px 0 #000;
+    text-transform: uppercase;
+}
+/* search bar css */
+
+.search-container {
+    
+    float: right;
+    margin-left: auto;
+    margin-top: 7px;
+}
+
+.search-container input[type=text]{
+    margin-left: 250px;
+    padding: 4px;
+    float:right;
+    margin-top:inherit;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+
+}
+.search-container input[type=submit]{
+    float: right;
+    margin-left: 2.5px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #37b4ec;
+}
+
+#tagline{
+    
+		margin-top: -8px;
+}		
+#logo, nav, nav li{
+    
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	zoom:1;
+}
+#logo{
+    
+	width: 100%;
+	
+}
+nav ul{
+    
+    display: block;
+}
+nav a {
+    
+    float: left;
+	color: #fff;
+	font-family: LeagueGothic, sans-serif;
+	text-decoration: none;
+	font-size: 1.5em;
+	margin-left: 25px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px #000;
+}
+
+nav{
+    
+	margin: 10px 2px 0 0;
+	float: left;
+    margin-bottom: 10px;
+}
+hr{
+    
+    color: brown;
+    margin-top: 5px;
+    width: 100%;
+}
+
+
+/*
+.search-container button {
+    
+  float: right;
+  padding: 6px 10px;
+  margin-top:inherit;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+    
+  background: #ccc;
+}
+.search-container button.btn, input[type="submit"].btn {
+    
+    padding-top: 5.5px;
+    float: right;
+    padding-bottom: 2.5px;
+}*/
+
+#headline /*this is a headlene of right content */
+{
+		background-color: black;
+		width:100%;
+		height: 20px;
+		border-radius: 5px;
+		margin-top: 8px;
+}
+
+#headline_content
+{
+	
+	font-size: 20px;
+	margin-top: 5px;
+}
+a .active{
+    display:block;
+    background-color: red;
+}
+
+#allnewsbox{
+    align-content: center;
+    position: relative;
+   
+    margin-top: 20PX;
+    margin: 5px 5px 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: 300px;
+}
+
+#allnewsshow{
+    float: left;
+    width: 95%;
+    padding: 10px;
+}
+
+#allnewsshow img{
+    width: 320px;
+    height: 250PX;
+    border-radius: 5px;
+    border: 2px solid #00BCD4;
+    box-shadow: 1px 2px 6px #00BCD4;
+				
+}
+
+#allnewsshow h1{
+    width:320px;
+    font-size: 17px;
+    color: aqua;
+    word-wrap: break-word ;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#readmorepost{/* this is for full article reading*/
+				
+				text-align: center;
+				margin-right: 20%;
+				margin-left: 5%;
+			}
+
+#headline_content{
+	
+	font-size: 20px;
+	margin-top: 5px;
+}
+.footer{
+    
+    bottom: 0px;
+    clear: both;
+}
